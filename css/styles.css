@@ -603,7 +603,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -11119,7 +11119,12 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+.history-section {
+  padding: 7rem 0;
+}
+.history-section .featured-text {
+  padding: 2rem;
+}
 .projects-section {
   padding: 10rem 0;
 }
